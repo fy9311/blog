@@ -4,6 +4,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import logo from "../../static/img/logo.jpg";
 
 import styles from "./index.module.css";
 
@@ -28,7 +29,8 @@ export default function Home() {
 		>
 			<HomepageHeader />
 			<main>
-				<HomepageFeatures />
+				{/* <HomepageFeatures /> */}
+				<img src={logo} style={{ margin: "0 auto", display: "block" }} />
 			</main>
 		</Layout>
 	);
