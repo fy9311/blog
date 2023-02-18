@@ -63,6 +63,7 @@ const config = {
 				items: [
 					{
 						type: "doc",
+						docId: "intro",
 						position: "left",
 						label: "笔记",
 					},
