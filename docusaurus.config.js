@@ -58,12 +58,11 @@ const config = {
 				title: "Fy's blog",
 				logo: {
 					alt: "My Site Logo",
-					src: "img/logo.svg",
+					src: "img/logo.jpg",
 				},
 				items: [
 					{
 						type: "doc",
-						docId: "intro",
 						position: "left",
 						label: "笔记",
 					},
